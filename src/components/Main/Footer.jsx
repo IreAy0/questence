@@ -197,7 +197,7 @@ export default function Footer() {
               © 2021 Questence. All rights reserved.
             </p>
           </div>
-          <div className="flex-grow  lg:justify-end mr-auto flex flex-wrap -mb-10 md:mt-0 mt-10 md:text-left text-center">
+          <div className="flex-grow  lg:justify-end  mx-auto lg:mr-auto flex flex-wrap -mb-10 md:mt-0 mt-10 md:text-left text-center">
             <div className="lg:w-1/4 md:w-1/2 w-full px-4">
               <h2 className="font-extrabold tracking-widest text-xl mb-3">
                 Pages
