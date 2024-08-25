@@ -4,13 +4,13 @@ export default function Footer() {
   return (
     <footer className="text-white bg-[#00873D]">
       <div className="container px-10 py-24 ">
-        <div className="pb-12">
+        <div className="lg:pb-12">
           <a className="flex title-font w-60 font-medium items-center md:justify-start justify-center ">
             <img src={Logo} alt="" className="w-full" />
           </a>
         </div>
-        <div className="mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-          <div className="w-1/4 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+        <div className="mx-auto flex md:items-center lg:items-start md:flex-row  flex-wrap flex-col">
+          <div className="lg:w-1/4  w-full mb-2  flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
             <p className="mt-2 text-lg mb-3">
               Build skills with courses, certificates, and programmes online
               from world-class trainers and institutions.
@@ -204,13 +204,13 @@ export default function Footer() {
               </h2>
               <nav className="list-none mb-10">
                 <li>
-                  <a className="font-medium text-lg">About Us</a>
+                  <a className="font-medium text-base">About Us</a>
                 </li>
                 <li>
-                  <a className="font-medium text-lg">Blog</a>
+                  <a className="font-medium text-base">Blog</a>
                 </li>
                 <li>
-                  <a className="font-medium text-lg">Career</a>
+                  <a className="font-medium text-base">Career</a>
                 </li>
               </nav>
             </div>
@@ -220,7 +220,7 @@ export default function Footer() {
               </h2>
               <nav className="list-none mb-10">
                 <li>
-                  <a className="font-medium text-lg">Contact Us</a>
+                  <a className="font-medium text-base">Contact Us</a>
                 </li>
               </nav>
             </div>
@@ -230,10 +230,10 @@ export default function Footer() {
               </h2>
               <nav className="list-none mb-10">
                 <li>
-                  <a className="font-medium text-lg">Terms of Service</a>
+                  <a className="font-medium text-base">Terms of Service</a>
                 </li>
                 <li>
-                  <a className="font-medium text-lg">Honour Code</a>
+                  <a className="font-medium text-base">Honour Code</a>
                 </li>
                 <li>
                   <a className="font-medium text-lg">Privacy Policy</a>

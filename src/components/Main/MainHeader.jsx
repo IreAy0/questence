@@ -4,7 +4,7 @@ import BookMarkDark from '../../assets/icons/BookMarkDark'
 function MainHeader() {
   return (
     <>
-      <div className='flex justify-between items-center '>
+      <div className='flex justify-between items-center pt-4'>
         <div>
           <h2 className='text-primary text-lg font-semibold'>Meet the Course Team</h2>
         </div>

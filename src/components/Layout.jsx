@@ -6,10 +6,10 @@ const Layout = ({children}) => {
         <div className="flex flex-col h-screen">
           <Header />
             <div className="flex flex-1 pt-16">
-                <aside className="bg-white w-80  fixed border-r  border-black border-opacity-50 top-28 bottom-0 left-0 z-40 overflow-y-auto overflow-x-hidden">
+                <aside className="bg-white w-full lg:w-80 hidden   fixed lg:block border-r  border-black border-opacity-50 top-28 bottom-0 left-0 z-40 overflow-y-auto overflow-x-hidden">
                     <Sidebar />
                 </aside>
-                <main className="flex-1 ml-80 overflow-y-auto">
+                <main className="flex-1 lg:ml-80 overflow-y-auto">
                     {children}
                 </main>
             </div>

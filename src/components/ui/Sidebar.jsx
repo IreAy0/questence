@@ -7,9 +7,9 @@ import { studies } from '../../../course_outline'
 import AccordionItem from '../AccordionItem'
 function Sidebar() {
   return (
-   <div className='flex justify-center items-center flex-col w-11/12 mx-auto'>
+   <div className='flex justify-center  flex-col w-11/12 mx-auto'>
     <div >
-      <ul className='flex gap-10 py-5'>
+      <ul className='flex gap-10 py-5 px-5'>
         <li>
           <CourseIcon color={"#00798C"} />
         </li>
